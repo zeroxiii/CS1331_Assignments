@@ -1,0 +1,35 @@
+Rahmaan Lodhia
+rlodhia3
+
+1.2
+
+1) 
+Compile Error: The public type GTbuzz must be defined in its own file.
+The error occurred because the file name must be the same as the class name.
+
+2)
+No errors occur in compiling as we are only changing what string we are displaying.
+
+3)
+Complie Error: Invalid character constant
+The println function requires a string.  Removing the first quotation ruins the syntax of the statement, making the second quotation the begining of the string.  However, there is no second quotation to mark the end of the string.
+
+4)
+Compile Error: String literal is not properly closed by a double-quote
+Without the second quotation mark, the string is not properly read in the function.
+
+5)
+Runtime Error: Exception in thread "main" java.long.NoSuchMethodError: main
+Since there is no longer a main function, the program will not run as it looks for the main function first to run the program.
+
+6)
+Compile Error: The method bogus(String) is undefined for the type PrintStream
+There is no method defined called Bogus in the System class, which creates an error.
+
+7)
+Compile Error: Syntax error, insert ";" to complete BlockStatements
+Java requires ";" to mark the end of the line.  It will error without it.
+
+8)
+Compile Error: Syntax error, insert "}" to complete ClassBody
+Java requires both {} to complete a class in order to properly compile a program.
